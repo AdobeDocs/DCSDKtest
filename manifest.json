@@ -16,7 +16,7 @@
           "importedFileName": "This is browser title name. . . ",
           "pages":[  
           ],
-          "path":"AdobeDocs/DCSDKtest/master/home/index.md",
+          "path":"AdobeDocs/DCSDKtest/master/home/index.html",
           "title": "Left hand title 1"
         },
         {
@@ -24,14 +24,21 @@
           "pages":[  
           ],
           "path":"AdobeDocs/DCSDKtest/master/home/servicesSDK/index.md",
-          "title": "Left hand title 2"
+          "title": "DC Services SDK"
         },
         {
           "importedFileName": "This is browser title name test ",
           "pages":[  
           ],
           "path":"AdobeDocs/DCSDKtest/master/home/viewSDK/index.md",
-          "title": "Left hand title 3"
+          "title": "View Services SDK"
+        },
+        {
+          "importedFileName": "This is browser title name. . . ",
+          "pages":[  
+          ],
+          "path":"https://www.adobe.com",
+          "title": "External Link"
         }
     ]
   }]
