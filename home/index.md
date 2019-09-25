@@ -31,9 +31,52 @@ blockquote
 
 ### Heading 3
 
+Javascript snippet
+
+```javascript
+Get the samples from https://www.adobe.com/go/dcservicessdk_java_samples
+import java.io.IOException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.adobe.platform.operation.ClientContext;
+import com.adobe.platform.operation.exception.SdkException;
+import com.adobe.platform.operation.exception.ServiceApiException;
+import com.adobe.platform.operation.io.FileRef;
+import com.adobe.platform.operation.pdfops.CreatePDFOperation;
+
+public class CreatePDFFromDOCX {
+
+   // Initialize the logger.
+   private static final Logger LOGGER = LoggerFactory.getLogger(CreatePDFFromDOCX.class);
+
+   public static void main(String[] args) {
+
+       try {
+
+           // Initial setup, create a ClientContext using a config file and a new operation instance.
+           ClientContext clientContext = ClientContext.createFromFile("dc-services-sdk-config.json");
+           CreatePDFOperation createPdfOperation = CreatePDFOperation.createNew();
+
+           // Set operation input from a source file.
+           FileRef source = FileRef.createFromLocalFile("src/main/resources/createPDFInput.docx");
+           createPdfOperation.setInput(source);
+
+           // Execute the operation.
+           FileRef result = createPdfOperation.execute(clientContext);
+
+           // Save the result to the specified location.
+           result.saveAs("output/createPDFFromDOCX.pdf");
+
+       } catch (ServiceApiException | IOException | SdkException ex) {
+           LOGGER.error("Exception encountered while executing operation", ex);
+       }
+   }
+}
+```
+
 JSON snippet
 
-```
+```json
   {
     "identity": {
       "type": "techacct",
@@ -54,7 +97,7 @@ JSON snippet
 
 HTML code sample snippet
 
-```
+```html
 <html>
 <head>
   <title>Your title</title>
@@ -80,7 +123,9 @@ HTML code sample snippet
 <!--Get the samples from https://www.adobe.com/go/dcviewsdk_samples-->
 ```
 
-Raw HTML that should render as HTML: 
+**Raw HTML that should render as HTML**
+
+> Not sure how useful this is without having custom JS as well. . .  
 
 <br/><br/><br/>
   <div style="color:red;" class="penguin">Penguin</div>
