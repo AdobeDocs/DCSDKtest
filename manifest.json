@@ -16,21 +16,21 @@
           "importedFileName": "This is browser title name. . . ",
           "pages":[  
           ],
-          "path":"AdobeDocs/DCSDKtest/master/home/index.md",
+          "path":"AdobeDocs/DCSDKtest/bensbranch/home/index.md",
           "title": "Documentation Home"
         },
         {
           "importedFileName": "This is browser title name. . . ",
           "pages":[  
           ],
-          "path":"AdobeDocs/DCSDKtest/master/home/servicesSDK/index.md",
+          "path":"AdobeDocs/DCSDKtest/bensbranch/home/servicesSDK/index.md",
           "title": "DC Services SDK"
         },
         {
           "importedFileName": "This is browser title name test ",
           "pages":[  
           ],
-          "path":"AdobeDocs/DCSDKtest/master/home/viewSDK/index.md",
+          "path":"AdobeDocs/DCSDKtest/bensbranch/home/viewSDK/index.md",
           "title": "View Services SDK"
         },
         {
