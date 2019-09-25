@@ -2,7 +2,7 @@
 
 ## Heading 2
 
-.. note:: The `DC Services SDK <./servicessdk/index.html>`__ and `DC View SDK <./viewsdk/index.html>`__ are now available for early access. This version of the SDK provides JAVA APIs, documentation, and sample code.  
+The [DC Services SDK](./servicessdk/index.html) and [DC View SDK](./viewsdk/index.html) are now available for early access. This version of the SDK provides JAVA APIs, documentation, and sample code.  
 
 ## Heading 2
 
@@ -12,16 +12,13 @@ Despite its near ubiquity, supporting PDF viewing on the web or in applications 
 
 What? 
 
-
 ### Heading 3
 
 What? 
 
-
 ### Heading 4
 
 In line code: After installing the Nuget package, navigate to the `.nuget` directory, find and open `adobe.documentcloud.services.0.5.0.nupkg.sha512`.
-
 
 ### Heading 4
 
